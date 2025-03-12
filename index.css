@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif; 
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+form{
+    width: 500px;
+    border: 2px solid #71024f;
+    border-radius: 3px;
+    padding: 30px;
+
+
+  & h1{
+    color: #71024f;
+}
+
+& h2{ 
+    display: flex; 
+    justify-content: center;
+    color: #71024f;
+}
+
+& label{
+    display: block;
+  }
+
+& input, & select{
+    width: 100%;
+    height: 35px;
+    border: 2px solid #71024f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+}
